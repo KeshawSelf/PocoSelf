@@ -67,10 +67,10 @@ print(type(val), val)
 # """
 # print("hi everyone")
 
-str = "lets go"
-print(str)
-str = "come here"
-print(str)
+# str = "lets go"
+# print(str)
+# str = "come here"
+# print(str)
 
 print(str.endswith("go"))
 print(str.endswith("here"))
