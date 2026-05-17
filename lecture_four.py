@@ -64,7 +64,7 @@
 # print(len(collection))
 # print(collection)
 
-a = {"hello", "world", "yoyo", "poco"}
-b = {"wassup", "fine", "poco","yoyo"}
-c = a.intersection(b)
-print(c)
+# a = {"hello", "world", "yoyo", "poco"}
+# b = {"wassup", "fine", "poco","yoyo"}
+# c = a.intersection(b)
+# print(c)
