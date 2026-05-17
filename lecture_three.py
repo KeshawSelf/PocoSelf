@@ -39,11 +39,11 @@
 # print([a, b, c])
 
 
-# movie = []
-# a = input("enter first movie :")
-# movie.append(a)
-# b = input("enter second movie :")
-# movie.append(b)
-# c = input("enter third movie :")
-# movie.append(c)
-# print(movie)
+movie = []
+a = input("enter first movie :")
+movie.append(a)
+b = input("enter second movie :")
+movie.append(b)
+c = input("enter third movie :")
+movie.append(c)
+print(movie)
