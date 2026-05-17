@@ -96,8 +96,8 @@
 #     if (num3>num2):
 #         print(num3,"is the greatest")
 
-# a = int(input("enter a number : "))
-# if (a%7 == 0):
-#     print(a,"is a multiple of 7")
-# else:
-#     print(a,"is not a multiple of 7")
+a = int(input("enter a number : "))
+if (a%7 == 0):
+    print(a,"is a multiple of 7")
+else:
+    print(a,"is not a multiple of 7")
