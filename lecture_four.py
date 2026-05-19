@@ -68,3 +68,51 @@
 # b = {"wassup", "fine", "poco","yoyo"}
 # c = a.intersection(b)
 # print(c)
+
+# set1 = {1, 2, 3}
+# set2 = {2, 3, 4}
+# print(set1.intersection(set2))
+
+# dict = {
+#     "table" : {
+#         "a piece of furniture", "list of facts and figures"
+#     },
+#       "cat" : {
+#         "a small animal"
+#         }
+# }
+# print(dict) # question1 i did but not correctly
+
+# how mam did-
+# dictionary = {
+#     "cat" : "a small animal",
+#     "table" : ["a piece of furniture", "list of facts and figures"]
+# } 
+# print(dictionary)
+
+# classroom = {"python", "java", "C++", "python", "javascript", "java", "python", "java", "C++", "C"}
+# print(len(classroom))
+
+# subject = {}
+# phy = int(input("Physics :")) #int added later
+# subject["Physics"] = phy
+# chem = int(input("Chemistry :")) #int added later
+# subject["Chemistry"] = chem
+# math = int(input("Maths :")) #int added later
+# subject["Maths"] = math
+# print(subject)
+
+# a = str(input("Enter number :"))
+# b = float(a)
+# set = {b, a}
+# print(set)
+
+# x = int(input("Enter a number :"))
+# y = float(x)
+# val = {
+#     ("float", y),
+#     ("int", x)
+# }
+# print(val)
+
+
