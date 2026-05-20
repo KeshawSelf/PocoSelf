@@ -45,10 +45,46 @@
 #     print(i*n)
 #     i += 1
 
-a = 1
-while a <= 10 :
-    print(a*a)
-    a += 1
+# a = 1
+# while a <= 10 :
+#     print([a*a])
+#     a += 1
+
+# heroes = ["ironman", "thor", "superman", "batman", "flash", "wonderwoman"]
+# i = 0
+# while i < len(heroes) :
+#     print(heroes[i]) #traverse
+#     i += 1
+
+# t = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+# print(t)
+# n = int(input("Find :"))
+# i = 0
+# while t[i] != n :
+#     i += 1
+# print("Found at idx", t.index(n))
+
+t = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 36)
+print(t)
+x = int(input("Find :"))
+i = 0
+while i < len(t) :
+    if (t[i] == x):
+        print("Found at idx",i)
+    else :
+        print("Finding...")
+    i += 1
+
+    
+
+
+
+
+
+
+
+
+
     
 
 
