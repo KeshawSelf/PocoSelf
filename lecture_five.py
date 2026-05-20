@@ -27,10 +27,18 @@
 #     print(a)
 #     a += 1
 
-a = 100
-while a >= 1 :
-    print(a)
-    a -= 1
+# a = 100
+# while a >= 1 :
+#     print(a)
+#     a -= 1
+
+a = int(input("Enter a number :"))
+b = 1
+while b <= 10 :
+    c = a*b
+    print(c)
+    b += 1
+    
 
 
     
