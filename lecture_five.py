@@ -32,12 +32,23 @@
 #     print(a)
 #     a -= 1
 
-a = int(input("Enter a number :"))
-b = 1
-while b <= 10 :
-    c = a*b
-    print(c)
-    b += 1
+# a = int(input("Enter a number :"))
+# b = 1
+# while b <= 10 :
+#     c = a*b
+#     print(c)
+#     b += 1
+
+# i = 1
+# n = int(input())
+# while i <= 10 :
+#     print(i*n)
+#     i += 1
+
+a = 1
+while a <= 10 :
+    print(a*a)
+    a += 1
     
 
 
