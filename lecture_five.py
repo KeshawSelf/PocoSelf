@@ -75,12 +75,21 @@
 #         print("Finding...")
 #     i += 1
 
+# i = 1
+# while i <= 10 :
+#     if (i == 7):
+#         break #break the cycle
+#     print(i)
+#     i += 1
+
 i = 1
 while i <= 10 :
-    if (i == 7):
-        break
+    if (i == 7) :
+        i += 1
+        continue #skip
     print(i)
     i += 1
+
 
     
 
