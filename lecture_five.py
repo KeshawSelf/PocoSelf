@@ -64,15 +64,22 @@
 #     i += 1
 # print("Found at idx", t.index(n))
 
-t = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 36)
-print(t)
-x = int(input("Find :"))
-i = 0
-while i < len(t) :
-    if (t[i] == x):
-        print("Found at idx",i)
-    else :
-        print("Finding...")
+# t = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 36)
+# print(t)
+# x = int(input("Find :"))
+# i = 0
+# while i < len(t) :
+#     if (t[i] == x):
+#         print("Found at idx",i)
+#     else :
+#         print("Finding...")
+#     i += 1
+
+i = 1
+while i <= 10 :
+    if (i == 7):
+        break
+    print(i)
     i += 1
 
     
