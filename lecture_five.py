@@ -90,13 +90,65 @@
 #     print(i)
 #     i += 1
 
-i = 1
-while i <= 10 :
-    if (i%2 == 0) :
-      i += 1
-      continue
+# i = 1
+# while i <= 10 :
+#     if (i%2 != 0) :
+#       i += 1
+#       continue
+#     print(i)
+#     i += 1
+
+# list = ["hi", "i", "am", "best"]
+# for el in list :
+#     print(el)
+
+# name = "PocoSelf"
+# for letter in name :
+#     if (letter == "S") :
+#         print("S found")
+#         break
+#     print(letter)
+
+# print("END")
+
+# tup = (1, 2, 3, 4, 5, 6)
+# for num in tup :
+#     print(num)
+
+# num = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+# for el in num :
+#     print(el)
+
+# tup = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 36)
+# print(tup)
+# x = int(input("Find :"))
+# b = 0
+# for a in tup:
+#   if (a == x) :
+#    print("found at index",b)
+#    break #agr break lgaya to first found pe ruk jayega
+#   b += 1
+
+# seq = range(5) #range(start?, stop, step?)
+# print(seq[0], seq[1], seq[2], seq[3], seq[4])
+# print(seq)
+
+# seq = range(10)
+# for i in seq :
+#   print(i)
+
+# for i in range(5) : #range(stop)
+#     print(i)
+
+# for i in range(2, 10) : #range(start, stop)
+#     print(i)
+
+# for i in range(2, 10, 2) : #range(start, stop, step)
+#     print(i)
+
+for i in range(1, 101) :
     print(i)
-    i += 1
+
 
 
     
