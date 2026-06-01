@@ -153,15 +153,40 @@
 # for i in range(1, 11) :
 #  print(n * i)
 
-n = int(input("Enter a number :"))
-# for i in range(n) :
-#     print(i)
-
-print(len(range(n)))
-
+# for i in range(5) :
+#     pass # baad me working code ke liye
+# if  i > 2 :
+#  pass
     
+#  print("some useful work")
 
+# n = int(input("Enter a number :"))
+# sum = 0
+# for i in range(1, n+1) :
+#     sum += i
+# print("total sum is :", sum)
 
+# n = int(input("Enter a number :"))
+# sum = 0
+# i = 1
+# while i <= n :
+#     sum += i
+#     i += 1
+# print("total sum is :", sum)
+
+# n = int(input("Enter a number :"))
+# pro = 1
+# for i in range(1, n+1) :
+#     pro *= i
+# print("factorial is :", pro)
+
+n = int(input("Enter a number :"))
+fact = 1
+i = 1
+while i <= n :
+    fact *= i
+    i += 1
+print("factorial =", fact)
 
     
 
