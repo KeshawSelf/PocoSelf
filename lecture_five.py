@@ -146,8 +146,20 @@
 # for i in range(2, 10, 2) : #range(start, stop, step)
 #     print(i)
 
-for i in range(1, 101) :
-    print(i)
+# for i in range(101, 1, -1) :
+#     print(i)
+
+# n = int(input("Enter a number :"))
+# for i in range(1, 11) :
+#  print(n * i)
+
+n = int(input("Enter a number :"))
+# for i in range(n) :
+#     print(i)
+
+print(len(range(n)))
+
+    
 
 
 
