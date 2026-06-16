@@ -53,8 +53,8 @@
 # print((a == b) or (a > b))
 # name = input("Enter your name :")
 # print(type(name))
-val = int(input("Enter some value:"))
-print(type(val), val)
+# val = int(input("Enter some value:"))
+# print(type(val), val)
 
 
 

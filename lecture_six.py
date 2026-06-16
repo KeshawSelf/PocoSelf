@@ -66,10 +66,15 @@
 # multi(4)
 
 marks = [20, 25, 20, 35, 46, 58, 24]
+cities = ["delhi", "pune", "indore", "banglore"]
 
-def marks_len() :
-    print(len(marks))
+def some_len(something) :
+    print(len(something))
 
-marks_len()
+some_len(marks)
+some_len(cities)
+
+
+
 
 
