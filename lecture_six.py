@@ -65,14 +65,47 @@
 
 # multi(4)
 
-marks = [20, 25, 20, 35, 46, 58, 24]
-cities = ["delhi", "pune", "indore", "banglore"]
+# marks = [20, 25, 20, 35, 46, 58, 24]
+# cities = ["delhi", "pune", "indore", "banglore"]
 
-def some_len(something) :
-    print(len(something))
+# def some_len(something) :
+#     print(len(something))
 
-some_len(marks)
-some_len(cities)
+# some_len(marks)
+# some_len(cities)
+
+# marks = [20, 25, 20, 35, 46, 58, 24]
+# cities = ["delhi", "pune", "indore", "banglore"]
+
+# def some_list(something) :
+#     for item in something :
+#      print(item, end=" ")
+
+# some_list(cities)
+# print()
+# some_list(marks)
+
+# def cal_fact(n) :
+#     fact = 1
+#     for i in range (1, n+1) :
+#         fact *= i
+#     print(fact)
+# cal_fact(int(input("Enter a number : ")))
+
+# def converter(usd_val) :
+#     inr_val = usd_val * 94
+#     print(usd_val,"USD =",inr_val,"INR")
+# converter(2)
+
+# n = int(input("Enter a number : "))
+# def odd_even(n) :
+#     if (n%2 == 0):
+#         print("EVEN")
+#     if (n%2 != 0) :
+#         print("ODD")
+
+# odd_even(n)
+
 
 
 
